@@ -1,6 +1,6 @@
-package Classcode;
+package Homework;
 
-public class MyJavaClass {
+public class Homework1 {
     public static void main(String[] args) {
         System.out.println("My Homework");
     }

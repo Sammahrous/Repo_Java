@@ -27,15 +27,17 @@ public class Homework5 {
             System.out.println("\nAbbreviation : " + abbreviation);
 
                                                 //Question 4
-        int num = 32;
-        if (num % 5 == 0) {
-            System.out.println("Divisible by 5");
+        int num = 15;
+        if (num % 5 == 0 && num % 3 == 0) {
+            System.out.println("\nDivisible by 5 and 3");
         }
-        if (num % 3 == 0) {
+        else if (num % 5 == 0) {
+            System.out.println("\nDivisible by 5");
+        }
+        else if (num % 3 == 0) {
             System.out.println("Divisible by 3");
-        } else if (num % 5 == 0 && num % 3 == 0) {
-            System.out.println("Divisible by 5 and 3");
-        } else {
+        }
+        else {
             System.out.println("\nNum is Not Divisible by 5 and 3");
         }
 

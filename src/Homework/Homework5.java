@@ -20,11 +20,11 @@ public class Homework5 {
 
                                                 //Question 3
         String sentence3 = "outFit OF the DAY";
-        String abbreviation = sentence3.substring(0, 1).toUpperCase();
-        String abbreviation1 = sentence3.substring(7, 8).toUpperCase();
-        String abbreviation2 = sentence3.substring(10, 11).toUpperCase();
-        String abbreviation3 = sentence3.substring(14, 15).toUpperCase();
-        System.out.println("\nAbbreviation : " + abbreviation + abbreviation1 + abbreviation2 + abbreviation3);
+        String abbreviation = sentence3.substring(0, 1).toUpperCase()
+                + sentence3.substring(7, 8).toUpperCase()
+                + sentence3.substring(10, 11).toUpperCase()
+                + sentence3.substring(14, 15).toUpperCase();
+            System.out.println("\nAbbreviation : " + abbreviation);
 
                                                 //Question 4
         int num = 32;
@@ -40,7 +40,7 @@ public class Homework5 {
         }
 
                                                 //Question 5
-        double studentScore = 85;
+        double studentScore = 60.99;
         int maxScore = 100;
         double scoreCalculation = (studentScore / maxScore) * 100;
         System.out.println("\nstudent Percentage = " + scoreCalculation + "%");
@@ -52,7 +52,7 @@ public class Homework5 {
             System.out.println("Student Grade = C \n");
         } else if (scoreCalculation >= 61 && scoreCalculation <= 70.99) {
             System.out.println("Student Grade = D \n");
-        } else if (scoreCalculation < 60.99 && scoreCalculation >= 0) {
+        } else if (scoreCalculation <= 60.99 && scoreCalculation >= 0) {
             System.out.println("Student Grade = E \n");
         } else if (studentScore > maxScore) {
             System.out.println("Invalid Student Score\n");

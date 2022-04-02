@@ -58,7 +58,7 @@ public class Homework6 {
 
                             //______________________________________________________//
 
-        int[] numbers2 = {87, 23, 89, 0, 54, 23};
+        int[] numbers2 = {87, 23, 89, 0, 54, 23,};
         int minimumValue2 = 0;
         for (int i = 0; i < numbers.length; i++){
             if (numbers2 [i] <= minimumValue2) {
